@@ -18,19 +18,42 @@
 				.contenantItem { 
 					width: calc((100% / 5) - 10px);
 					height: 100px;
-					background-color: gray;
+					background-color: grey;
 					border-color: black; border-style: solid; border-width: 1px;
 					margin-bottom: 10px;
 				}
 
+				@media only screen and (max-width: 1800px) {
+					.contenantItem { width: calc((100% / 9) - 18px); 
+					background-color: lightblue; }
+
+				@media only screen and (max-width: 1600px) {
+					.contenantItem { width: calc((100% / 8) - 16px); 
+					background-color: purple; }
+
+				@media only screen and (max-width: 1400px) {
+					.contenantItem { width: calc((100% / 7) - 14px); 
+					background-color: indigo; }
+
+				@media only screen and (max-width: 1200px) {
+					.contenantItem { width: calc((100% / 6) - 12px); 
+					background-color: blue; }
+
+				@media only screen and (max-width: 1000px) {
+					.contenantItem { width: calc((100% / 5) - 10px); 
+					background-color: red; }
+
 				@media only screen and (max-width: 800px) {
-					.contenantItem { width: calc((100% / 4) - 8px); }
+					.contenantItem { width: calc((100% / 4) - 8px); 
+					background-color: orange; }
 				}
 				@media only screen and (max-width: 650px) {
-					.contenantItem { width: calc((100% / 3) - 6px); }
+					.contenantItem { width: calc((100% / 3) - 6px); 
+					background-color: darkgreen; }
 				}
 				@media only screen and (max-width: 400px) {
-					.contenantItem { width: calc((100% / 2) - 4px); }
+					.contenantItem { width: calc((100% / 2) - 4px); 
+					background-color: blue; }
 				}
 
 			</style>
