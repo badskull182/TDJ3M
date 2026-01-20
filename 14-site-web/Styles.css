@@ -1,0 +1,33 @@
+﻿			.top {
+				text-align: center;
+				font-size: 150%;
+			}
+
+			.middle {
+				text-align: center;
+				border-style: solid;
+				border-radius: 20px;
+				background-image: linear-gradient(to bottom, red, white, white);
+			}
+
+			h2 {
+				border-style: solid;
+				border-radius: 20px;
+				height: 200px;
+				width: 200px;
+				margin: 20px;
+				align-content: center;
+				margin-left: 800px
+			}
+
+			img {
+				text-align: left;
+				border-style: solid;
+				border-radius: 20px;
+				height: 350px;
+				width: 300px;
+				margin-bottom: -7px;
+			}
+			body {
+				background-color: darkred;
+			}
