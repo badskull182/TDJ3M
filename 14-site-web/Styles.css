@@ -7,7 +7,7 @@
 				text-align: center;
 				border-style: solid;
 				border-radius: 20px;
-				background-image: linear-gradient(to bottom, red, white, white);
+				background-image: linear-gradient(to bottom, red, white, red);
 			}
 
 			h2 {
@@ -15,19 +15,39 @@
 				border-radius: 20px;
 				height: 200px;
 				width: 200px;
-				margin: 20px;
 				align-content: center;
-				margin-left: 800px
+				margin: 0 auto;
+				margin-top: 20px;
+				margin-bottom: 20px;
+				background-color: white;
 			}
+}
 
 			img {
-				text-align: left;
 				border-style: solid;
 				border-radius: 20px;
 				height: 350px;
-				width: 300px;
-				margin-bottom: -7px;
+				width: 350px;
+				margin-bottom: 20px;
 			}
+
 			body {
 				background-color: darkred;
 			}
+
+			h3 {
+				border-style:solid;
+				font-size: 200%;
+				width: 250px;
+				margin: 0 auto;
+				margin-bottom: 20px;
+				margin-top: 20px;
+				border-radius: 20px;
+				background-color: white;
+			}
+
+			a:hover {
+				color: gold;
+				font-size: 35px;
+			}
+			

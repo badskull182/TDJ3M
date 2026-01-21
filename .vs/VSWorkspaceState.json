@@ -1,10 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+    "\\03-liens",
+    "\\03-liens\\dossier1",
+    "\\03-liens\\dossier1\\dossier3",
     "\\04a-pratique-h1-h6",
     "\\10-flexbox",
-    "\\11-media-queries"
+    "\\11-media-queries",
+    "\\14-site-web"
   ],
-  "SelectedNode": "\\10-flexbox\\flexbox-vide.html",
+  "SelectedNode": "\\14-site-web\\NAV.html",
   "PreviewInSolutionExplorer": false
 }
