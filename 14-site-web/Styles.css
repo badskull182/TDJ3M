@@ -21,7 +21,7 @@
 				margin-bottom: 20px;
 				background-color: white;
 			}
-}
+
 
 			img {
 				border-style: solid;
@@ -38,7 +38,7 @@
 			h3 {
 				border-style:solid;
 				font-size: 200%;
-				width: 250px;
+				width: 400px;
 				margin: 0 auto;
 				margin-bottom: 20px;
 				margin-top: 20px;
@@ -49,5 +49,15 @@
 			a:hover {
 				color: gold;
 				font-size: 35px;
+			}
+			
+			img:hover {
+				height:500px;
+				width:500px;
+				border-color:gold;
+			}
+
+			.cut {
+				width:750px;
 			}
 			
